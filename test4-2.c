@@ -23,7 +23,7 @@ while(x>0 && x<1000000)
     count++;
     digit = x%10;                   //取出数字的个位数，存放在digit
     if(digit%2 == count%2){         //判断数位和数的奇偶性
-        
+
         if(count != 1)
         {
             sum += pow(2.0,count-1);    //做二进制数的换算，pow(x,y)=x^y
@@ -36,7 +36,7 @@ while(x>0 && x<1000000)
     x /=10;                     //丢掉数字的个位，example：1234 > 123
 }
 
-    printf("%d",sum);
+    printf("%d" + "Yes",sum);
 
 
     return 0;
