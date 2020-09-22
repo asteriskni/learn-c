@@ -36,7 +36,7 @@ while(x>0 && x<1000000)
     x /=10;                     //丢掉数字的个位，example：1234 > 123
 }
 
-    printf("%d" + "Yes",sum);
+    printf("%d",sum);
 
 
     return 0;
